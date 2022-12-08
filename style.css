@@ -22,5 +22,43 @@ body {
   width: 100vw;
   background-image: url(./assets/blur-1.png), url(./assets/blur-2.png);
   background-repeat: no-repeat;
-  background-position: bottom -20vh left -120px, top -60vh right -20vh;
+  background-position: bottom 0vh left 0px, top -100px right 0px;
+}
+
+/* header */
+
+header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-left: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+.navs {
+  color: #E1E1E6;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.navs:hover {
+  opacity: .4;
+}
+
+button {
+  color: #E1E1E6;
+  border: 1px solid #8257E5;
+  background: #000;
+  background-image: url(./assets/blur-2.png);
+  background-position: 50% 50%;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
 }
