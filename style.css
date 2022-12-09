@@ -34,12 +34,12 @@ header {
   align-items: center;
   justify-content: center;
   gap: 150px;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 nav {
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 .navs {
@@ -60,9 +60,10 @@ button {
   background-image: url(./assets/blur-2.png);
   background-position: 50% 50%;
   cursor: pointer;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 50px 10px 50px;
   border-radius: 10px;
   opacity: .8;
+  font-weight: 700;
 }
 
 button:hover {
