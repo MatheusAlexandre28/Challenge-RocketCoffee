@@ -99,18 +99,38 @@ body {
   height: 70%;
 }
 
+.logo-modile {
+  opacity: 0;
+}
+
 /* mobile */
 @media (max-width: 1100px) {
+  .button-modile {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  .navs {
+    opacity: 0;
+  }
+
+  .logo-modile {
+    opacity: 1;
+  }
+  .logo-desktop {
+    opacity: 0;
+  }
+
   .header {
-    width: 0;
-    height: 0;
-    opacity: 1;
+    justify-content: space-between;
+    gap: 0px;
+    background-image: url(./assets/logo-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 20%;
+    border: 1px solid red;
   }
-  .main {
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
+
   body {
     background-image: none;
     background-image: url(./assets/blur-mobile.png);
