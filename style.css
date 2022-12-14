@@ -127,8 +127,9 @@ body {
     gap: 0px;
     background-image: url(./assets/logo-mobile.svg);
     background-repeat: no-repeat;
-    background-position: 5% 20%;
-    border: 1px solid red;
+    background-position: 5% 50%;
+    border-bottom: 1px solid red;
+    height: 10vh;
   }
 
   body {
