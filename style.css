@@ -128,7 +128,7 @@ body {
     background-image: url(./assets/logo-mobile.svg);
     background-repeat: no-repeat;
     background-position: 5% 50%;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #29292E;
     height: 10vh;
   }
 
