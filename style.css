@@ -106,6 +106,9 @@ body {
 /* mobile */
 @media (max-width: 1100px) {
   .main {
+    margin-top: 300px;
+    height: 100vh;
+    justify-content: flex-start;
   }
   .button-modile {
     position: absolute;
@@ -143,9 +146,13 @@ body {
     background-size: 100% 50%;
   }
   .h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
   .h2 {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  .rocket-coffee {
+    height: 60vh;
+    bottom: 0;
   }
 }
