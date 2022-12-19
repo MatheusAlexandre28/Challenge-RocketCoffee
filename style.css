@@ -112,8 +112,8 @@ body {
   }
   .button-modile {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    margin-top: 50vh;
+    margin-left: 30VW;
   }
 
   .navs {
@@ -124,6 +124,7 @@ body {
   .logo-modile {
     opacity: 1;
   }
+
   .logo-desktop {
     opacity: 0;
   }
