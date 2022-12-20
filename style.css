@@ -153,7 +153,8 @@ body {
     font-size: 3em;
   }
   .rocket-coffee {
-    height: 60vh;
+    height: 100%;
+    width: 100%;
     bottom: 0;
   }
 }
