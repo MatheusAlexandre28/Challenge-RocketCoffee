@@ -119,6 +119,7 @@ body {
   .navs {
     opacity: 0;
     width: 1%;
+    
   }
 
   .logo-modile {
@@ -146,7 +147,6 @@ body {
     background-size: cover;
     background-size: 100% 50%;
     height: 100%;
-    border: 1px solid red;
   }
 
   .h1 {
