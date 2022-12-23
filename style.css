@@ -146,6 +146,7 @@ body {
     background-size: cover;
     background-size: 100% 50%;
     height: 100%;
+    border: 1px solid red;
   }
 
   .h1 {
