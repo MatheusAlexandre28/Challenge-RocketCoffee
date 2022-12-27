@@ -108,17 +108,31 @@ body {
   opacity: 0;
 }
 
+.h1Mobile {
+  opacity: 0;
+  position: absolute;
+}
+
 /* mobile */
 @media (max-width: 1100px) {
   .main {
-    margin-top: 300px;
+    margin-top: 350px;
     height: 100vh;
     justify-content: flex-start;
   }
-  .button-modile {
+  .button-mobile {
     position: absolute;
-    margin-top: 60vh;
-    margin-left: 30VW;
+    width: 100%;
+    margin-left: -100px;
+    height: 75%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .button {
+    height: 40px;
+    width: 200px;
+    padding: 0;
   }
 
   .navs {
@@ -136,14 +150,13 @@ body {
   }
 
   .header {
-    justify-content: space-between;
-    gap: 0px;
     background-image: url(./assets/logo-mobile.svg);
     background-repeat: no-repeat;
     background-position: 5% 50%;
     border-bottom: 1px solid #29292E;
     height: 10vh;
     width: 98%;
+    justify-content: end;
   }
 
   body {
@@ -152,6 +165,7 @@ body {
     background-size: cover;
     background-size: 100% 50%;
     height: 100%;
+    overflow-x: hidden;
   }
 
   .h1 {
@@ -161,13 +175,20 @@ body {
     font-size: 3em;
   }
   .rocket-coffee {
-    height: 100%;
-    width: 90%;
+    height: 50vh;
+    bottom: 0;
   }
-
   .burguer {
     opacity: 1;
-    right: 0;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .h1Mobile {
+    opacity: 1;
+    color: #FFF;
+    margin-bottom: 100px;
+    width: 50vw;
   }
 
 }
