@@ -99,96 +99,70 @@ body {
   height: 70%;
 }
 
-.logo-modile {
-  opacity: 0;
+/* Mobile */
+.headerMobile {
+  display: none;
+}
+.mainMobile {
+  display: none;
 }
 
-.burguer {
-  position: absolute;
-  opacity: 0;
-}
-
-.h1Mobile {
-  opacity: 0;
-  position: absolute;
-}
-
-/* mobile */
-@media (max-width: 1100px) {
-  .main {
-    margin-top: 350px;
-    height: 100vh;
-    justify-content: flex-start;
-  }
-  .button-mobile {
-    position: absolute;
-    width: 100%;
-    margin-left: -100px;
-    height: 75%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-  }
-  .button {
-    height: 40px;
-    width: 200px;
-    padding: 0;
-  }
-
-  .navs {
-    opacity: 0;
-    width: 1%;
-    
-  }
-
-  .logo-modile {
-    opacity: 1;
-  }
-
-  .logo-desktop {
-    opacity: 0;
-  }
-
+@media (max-width: 1300px){
   .header {
-    background-image: url(./assets/logo-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: 5% 50%;
-    border-bottom: 1px solid #29292E;
-    height: 10vh;
-    width: 98%;
-    justify-content: end;
+    display: none;
   }
-
+  .main {
+    display: none;
+  }
   body {
     background-image: none;
     background-image: url(./assets/blur-mobile.png);
     background-size: cover;
-    background-size: 100% 50%;
-    height: 100%;
-    overflow-x: hidden;
+    background-size: 100% 70%;
   }
-
-  .h1 {
-    font-size: 3em;
-  }
-  .h2 {
-    font-size: 3em;
-  }
-  .rocket-coffee {
-    height: 50vh;
-    bottom: 0;
+  .headerMobile {
+    border-bottom: 1px solid #29292E;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
   }
   .burguer {
-    opacity: 1;
     cursor: pointer;
-    margin-right: 20px;
   }
-
+  .mainMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
   .h1Mobile {
-    opacity: 1;
-    color: #FFF;
-    margin-bottom: 100px;
-    width: 50vw;
+    color: #E1E1E6;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 400;
+    width: 70vw;
   }
-
+  .button {
+    width: 160px;
+    height: 35px;
+    padding: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: .7em;
+    color: #FFF;
+    margin-top: 50px;
+  }
+  .h1{
+    font-size: 3em;
+    margin-top: 50px;
+  }
+  .h2{
+    font-size: 3em;
+  }
 }
