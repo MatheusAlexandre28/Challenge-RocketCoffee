@@ -165,4 +165,9 @@ body {
   .h2{
     font-size: 3em;
   }
+  .rocketCoffeeMobile {
+    object-fit: cover;
+    border: 1px solid red;
+    height: 10px;
+  }
 }
