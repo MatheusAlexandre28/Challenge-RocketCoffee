@@ -168,6 +168,6 @@ body {
   .rocketCoffeeMobile {
     object-fit: cover;
     border: 1px solid red;
-    height: 10px;
+    height: 40vh;
   }
 }
