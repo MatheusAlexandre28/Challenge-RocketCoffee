@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <title>RocketCoffee</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
   <header class="header">
     <img src="./assets/logo-desktop.svg" alt="logo-desktop" class="logo-desktop" height="60vh">
@@ -27,20 +29,33 @@
     <img class="rocket-coffee" src="./assets/rocket-coffee.png" alt="">
   </main>
   <!-- mobile -->
-  <header class="headerMobile">
-    <img src="./assets/logo-mobile.svg" alt="">
-    <div class="divBurguer">
-      <img src="./assets/menu-buguer-open.svg" alt="" class="burguer">
+  <div class="sideBar">
+    <header class="headerMobile">
+      <img src="./assets/logo-mobile.svg" alt="" class="logo-mobile">
+      <div class="container-aside">
+        <button class="divBurguer" id="open-sideBar">
+          <img src="./assets/menu-buguer-open.svg" alt="" class="burguer">
+          <img src="./assets/menu-buguer-close.svg" alt="" class="close" height="15px">
+        </button>
+      </div>
+      <script src="./script.js"></script>
+    </header>
+    <main class="mainMobile">
+      <h1 class="h1Mobile">O café que fará seu código devolar para o próximo nível.</h1>
+      <button class="button">PEGAR MEU CAFÉ <img src="./assets/arrow.svg" alt=""></button>
+      <h1 class="h1">Great Coffee</h1>
+      <h2 class="h2">&lt;Great Code/&gt;</h2>
+      <div class="divCoffe">
+        <img src="./assets/rocket-coffee.png" alt="" class="rocketCoffeeMobile">
+      </div>
+    </main>
+    <div class="container-sideBar">
+      <button class="buttonSideBer">Home</button>
+      <button class="buttonSideBer">Menu</button>
+      <button class="buttonSideBer">Recompensas</button>
+      <button class="buttonSideBer">Gift Cargs</button>
+      <button class="buttonSideBer">Lojas</button>
     </div>
-  </header>
-  <main class="mainMobile">
-    <h1 class="h1Mobile">O café que fará seu código devolar para o próximo nível.</h1>
-    <button class="button">PEGAR MEU CAFÉ <img src="./assets/arrow.svg" alt=""></button>
-    <h1 class="h1">Great Coffee</h1>
-    <h2 class="h2">&lt;Great Code/&gt;</h2>
-    <div class="divCoffe">
-      <img src="./assets/rocket-coffee.png" alt="" class="rocketCoffeeMobile">
-    </div>
-  </main>
+  </div>
 </body>
 </html>

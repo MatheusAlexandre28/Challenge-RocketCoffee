@@ -106,6 +106,9 @@ body {
 .mainMobile {
   display: none;
 }
+.container-sideBar {
+  display: none;
+}
 
 @media (max-width: 1300px){
   .header {
@@ -130,13 +133,14 @@ body {
   }
   .divBurguer {
     cursor: pointer;
+    background: #000;
   }
   .mainMobile {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
-    height: 82%;
+    height: 84vh;
   }
   .h1Mobile {
     color: #E1E1E6;
@@ -174,6 +178,45 @@ body {
     height: 100%;
     display: flex;
     align-items: flex-end;
+    bottom: 0;
+  }
+  .close {
+    display: none;
+  }
+  .container-sideBar {
+    display: none;
+  }
+
+  /* Script */
+  .sideBar.active {
+    width: 100%;
+  }
+  .sideBar.active .mainMobile {
+    display: none;
+  }
+  .sideBar.active .burguer {
+    display: none;
+  }
+  .sideBar.active .close {
+    display: flex;
+  }
+  .sideBar.active .container-sideBar {
+    display: flex;
+    flex-direction: column;
+  }
+  .sideBar.active .buttonSideBer {
+    text-align: left;
+    cursor: pointer;
+    color: #A8A8B3;
+    background: #000;
+    border-bottom: 1px solid #29292E;
+    height: 60px;
+    padding-left: 30px;
+    font-size: 1em;
+  }
+  .sideBar.active .buttonSideBer:hover {
+    border-left: 4px solid #8257E5;
+    color: #FFF;
   }
 }
 
