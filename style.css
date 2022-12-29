@@ -122,13 +122,13 @@ body {
   }
   .headerMobile {
     border-bottom: 1px solid #29292E;
-    height: 12vh;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
   }
-  .burguer {
+  .divBurguer {
     cursor: pointer;
   }
   .mainMobile {
@@ -136,6 +136,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
+    height: 82%;
   }
   .h1Mobile {
     color: #E1E1E6;
@@ -167,7 +168,23 @@ body {
   }
   .rocketCoffeeMobile {
     object-fit: cover;
-    border: 1px solid red;
     height: 40vh;
+  }
+  .divCoffe {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 750px){ 
+  .rocketCoffeeMobile {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 600px){ 
+  .rocketCoffeeMobile {
+    height: 20vh;
   }
 }
